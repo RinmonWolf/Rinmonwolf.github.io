@@ -5,8 +5,8 @@
     
     <entry>
       <title>真正的Hello World</title>
-      <link href="./2021/10/21/zhen-zheng-de-hello-world/"/>
-      <url>./2021/10/21/zhen-zheng-de-hello-world/</url>
+      <link href="/rimmonwolf.github.io/2021/10/21/zhen-zheng-de-hello-world/"/>
+      <url>/rimmonwolf.github.io/2021/10/21/zhen-zheng-de-hello-world/</url>
       
         <content type="html"><![CDATA[<p>所以呢，这个才是我的Hello World 才对。</p><p>欢迎来到我的博客～</p><hr><h2 id="来自我介绍一下："><a href="#来自我介绍一下：" class="headerlink" title="来自我介绍一下："></a>来自我介绍一下：</h2><p>袁湘浩/RinmonWolf，一般十六岁男子。</p><p>数码/摄影/编程/陈粒，感兴趣的基本上是这些。</p><p>没有深造的东西，普普通通。</p><hr><h2 id="开博客的目的"><a href="#开博客的目的" class="headerlink" title="开博客的目的"></a>开博客的目的</h2><p>开了两次博客，前两次都是玩玩，所以基本没有什么内容。</p><p>这次呢，打算分享一些自己的学习心得，包括编程但不仅于此。</p><p>也让自己不要忘的那么快。</p><hr><h2 id="更新频率？"><a href="#更新频率？" class="headerlink" title="更新频率？"></a>更新频率？</h2><p>真的说不准，我连视频脚本都没开始写呢。</p><p><del>（跑路）</del></p><hr><h2 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h2><p>总之，希望我的这些东西能够帮助到你，非常感谢你能够读到这篇、读完这篇文章。</p><p>祝生活不负有心人。</p>]]></content>
       
@@ -24,8 +24,8 @@
     
     <entry>
       <title>Hello World</title>
-      <link href="./2021/10/21/hello-world/"/>
-      <url>./2021/10/21/hello-world/</url>
+      <link href="/rimmonwolf.github.io/2021/10/21/hello-world/"/>
+      <url>/rimmonwolf.github.io/2021/10/21/hello-world/</url>
       
         <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
       
