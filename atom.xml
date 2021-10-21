@@ -6,7 +6,7 @@
   <link href="https://rinmonwolf.github.io/atom.xml" rel="self"/>
   
   <link href="https://rinmonwolf.github.io/"/>
-  <updated>2021-10-21T11:36:38.287Z</updated>
+  <updated>2021-10-21T15:26:42.072Z</updated>
   <id>https://rinmonwolf.github.io/</id>
   
   <author>
@@ -17,11 +17,30 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>正在施工中 - Hexo ✕ Github，建立年轻人的第一个博客（建立本站的过程记录+各种疑难杂症解决）</title>
+    <link href="https://rinmonwolf.github.io/2021/10/21/hexo-github-jian-li-nian-qing-ren-de-di-yi-ge-bo-ke-jian-li-ben-zhan-de-guo-cheng-ji-lu-ge-chong-yi-nan-za-zheng-jie-jue/"/>
+    <id>https://rinmonwolf.github.io/2021/10/21/hexo-github-jian-li-nian-qing-ren-de-di-yi-ge-bo-ke-jian-li-ben-zhan-de-guo-cheng-ji-lu-ge-chong-yi-nan-za-zheng-jie-jue/</id>
+    <published>2021-10-21T14:33:38.000Z</published>
+    <updated>2021-10-21T15:26:42.072Z</updated>
+    
+    
+    
+    
+    <category term="Started" scheme="https://rinmonwolf.github.io/categories/Started/"/>
+    
+    
+    <category term="初次见面" scheme="https://rinmonwolf.github.io/tags/%E5%88%9D%E6%AC%A1%E8%A7%81%E9%9D%A2/"/>
+    
+    <category term="博客" scheme="https://rinmonwolf.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
     <title>真正的Hello World</title>
     <link href="https://rinmonwolf.github.io/2021/10/21/zhen-zheng-de-hello-world/"/>
     <id>https://rinmonwolf.github.io/2021/10/21/zhen-zheng-de-hello-world/</id>
     <published>2021-10-21T11:23:06.000Z</published>
-    <updated>2021-10-21T11:36:38.287Z</updated>
+    <updated>2021-10-21T14:20:36.876Z</updated>
     
     
       
@@ -37,8 +56,12 @@
     
     
     
+    <category term="Started" scheme="https://rinmonwolf.github.io/categories/Started/"/>
+    
     
     <category term="箱底" scheme="https://rinmonwolf.github.io/tags/%E7%AE%B1%E5%BA%95/"/>
+    
+    <category term="初次见面" scheme="https://rinmonwolf.github.io/tags/%E5%88%9D%E6%AC%A1%E8%A7%81%E9%9D%A2/"/>
     
   </entry>
   
@@ -47,7 +70,7 @@
     <link href="https://rinmonwolf.github.io/2021/10/21/hello-world/"/>
     <id>https://rinmonwolf.github.io/2021/10/21/hello-world/</id>
     <published>2021-10-21T09:18:53.545Z</published>
-    <updated>2021-10-21T11:36:39.936Z</updated>
+    <updated>2021-10-21T14:20:15.251Z</updated>
     
     
       
@@ -60,8 +83,12 @@
     
     
     
+    <category term="Started" scheme="https://rinmonwolf.github.io/categories/Started/"/>
+    
     
     <category term="箱底" scheme="https://rinmonwolf.github.io/tags/%E7%AE%B1%E5%BA%95/"/>
+    
+    <category term="新手入门" scheme="https://rinmonwolf.github.io/tags/%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8/"/>
     
   </entry>
   
