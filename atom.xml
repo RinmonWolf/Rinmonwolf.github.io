@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Rinmon&#39;s Blog</title>
+  
+  <subtitle>123</subtitle>
+  <link href="http://rinmonwolf.github.io/atom.xml" rel="self"/>
+  
+  <link href="http://rinmonwolf.github.io/"/>
+  <updated>2021-10-21T11:36:38.287Z</updated>
+  <id>http://rinmonwolf.github.io/</id>
+  
+  <author>
+    <name>Rinmon Wolf</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>真正的Hello World</title>
+    <link href="http://rinmonwolf.github.io/2021/10/21/zhen-zheng-de-hello-world/"/>
+    <id>http://rinmonwolf.github.io/2021/10/21/zhen-zheng-de-hello-world/</id>
+    <published>2021-10-21T11:23:06.000Z</published>
+    <updated>2021-10-21T11:36:38.287Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;所以呢，这个才是我的Hello World 才对。&lt;/p&gt;
+&lt;p&gt;欢迎来到我的博客～&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;来自我介绍一下：&quot;&gt;&lt;a href=&quot;#来自我介绍一下：&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="箱底" scheme="http://rinmonwolf.github.io/tags/%E7%AE%B1%E5%BA%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://rinmonwolf.github.io/2021/10/21/hello-world/"/>
+    <id>http://rinmonwolf.github.io/2021/10/21/hello-world/</id>
+    <published>2021-10-21T09:18:53.545Z</published>
+    <updated>2021-10-21T11:36:39.936Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="箱底" scheme="http://rinmonwolf.github.io/tags/%E7%AE%B1%E5%BA%95/"/>
+    
+  </entry>
+  
+</feed>
