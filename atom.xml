@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>袁湘浩的博客</title>
+  <title>YuanXH&#39;s Blog</title>
   
   <subtitle>New Start.</subtitle>
   <link href="https://rinmonwolf.github.io/atom.xml" rel="self"/>
   
   <link href="https://rinmonwolf.github.io/"/>
-  <updated>2021-10-21T15:26:42.072Z</updated>
+  <updated>2021-10-23T06:29:37.337Z</updated>
   <id>https://rinmonwolf.github.io/</id>
   
   <author>
@@ -17,21 +17,31 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>正在施工中 - Hexo ✕ Github，建立年轻人的第一个博客（建立本站的过程记录+各种疑难杂症解决）</title>
-    <link href="https://rinmonwolf.github.io/2021/10/21/hexo-github-jian-li-nian-qing-ren-de-di-yi-ge-bo-ke-jian-li-ben-zhan-de-guo-cheng-ji-lu-ge-chong-yi-nan-za-zheng-jie-jue/"/>
-    <id>https://rinmonwolf.github.io/2021/10/21/hexo-github-jian-li-nian-qing-ren-de-di-yi-ge-bo-ke-jian-li-ben-zhan-de-guo-cheng-ji-lu-ge-chong-yi-nan-za-zheng-jie-jue/</id>
+    <title>正在施工中 - Hexo + Github = 年轻人的第一个博客</title>
+    <link href="https://rinmonwolf.github.io/2021/10/21/jian-zhan-guo-cheng-ji-lu/"/>
+    <id>https://rinmonwolf.github.io/2021/10/21/jian-zhan-guo-cheng-ji-lu/</id>
     <published>2021-10-21T14:33:38.000Z</published>
-    <updated>2021-10-21T15:26:42.072Z</updated>
+    <updated>2021-10-23T06:29:37.337Z</updated>
     
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;这篇文章就简要记录下本站建立的过程。&lt;/p&gt;
+&lt;p&gt;因以这种方式搭建是相对自由、简单、便宜（不用为托管付费，除非你弄着弄着生气砸了键盘可能就贵了）的。我就大胆叫了个“年轻人的第一个博客”。&lt;/p&gt;
+&lt;p&gt;首先声明：本文前半部分（建站）参考&lt;a</summary>
+        
+      
     
     
     
     <category term="Started" scheme="https://rinmonwolf.github.io/categories/Started/"/>
     
     
-    <category term="初次见面" scheme="https://rinmonwolf.github.io/tags/%E5%88%9D%E6%AC%A1%E8%A7%81%E9%9D%A2/"/>
-    
     <category term="博客" scheme="https://rinmonwolf.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="初次见面" scheme="https://rinmonwolf.github.io/tags/%E5%88%9D%E6%AC%A1%E8%A7%81%E9%9D%A2/"/>
     
   </entry>
   
@@ -70,7 +80,7 @@
     <link href="https://rinmonwolf.github.io/2021/10/21/hello-world/"/>
     <id>https://rinmonwolf.github.io/2021/10/21/hello-world/</id>
     <published>2021-10-21T09:18:53.545Z</published>
-    <updated>2021-10-21T14:20:15.251Z</updated>
+    <updated>2021-10-22T04:15:04.393Z</updated>
     
     
       
