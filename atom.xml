@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>YuanXH&#39;s Blog</title>
   
-  <subtitle>New Start.</subtitle>
+  <subtitle>好忙啊，好忙啊</subtitle>
   <link href="https://rinmonwolf.github.io/atom.xml" rel="self"/>
   
   <link href="https://rinmonwolf.github.io/"/>
-  <updated>2021-10-23T06:42:38.976Z</updated>
+  <updated>2021-11-19T13:03:08.671Z</updated>
   <id>https://rinmonwolf.github.io/</id>
   
   <author>
@@ -15,6 +15,62 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>为什么你看不到我更新？</title>
+    <link href="https://rinmonwolf.github.io/2021/11/19/busytime/"/>
+    <id>https://rinmonwolf.github.io/2021/11/19/busytime/</id>
+    <published>2021-11-19T12:33:01.000Z</published>
+    <updated>2021-11-19T13:03:08.671Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;很久没有更新，这篇其实也不算更新，只是交代一下为什么我总是很难被看见更新博客。&lt;/p&gt;
+&lt;p&gt;可能会比较乱，我尽量先写好大纲再补充内容。&lt;/p&gt;
+&lt;p&gt;可能有些内容我之前说过了，但是我忘了就再说一次吧。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;开博客的目的&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="My daliy" scheme="https://rinmonwolf.github.io/categories/My-daliy/"/>
+    
+    
+    <category term="日志" scheme="https://rinmonwolf.github.io/tags/%E6%97%A5%E5%BF%97/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>未定名 - 前传</title>
+    <link href="https://rinmonwolf.github.io/2021/10/23/qian-chuan/"/>
+    <id>https://rinmonwolf.github.io/2021/10/23/qian-chuan/</id>
+    <published>2021-10-23T15:08:01.000Z</published>
+    <updated>2021-11-19T13:13:33.994Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;strong&gt;放在前面：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;会持续更新！但是频率嘛……&lt;/p&gt;
+&lt;p&gt;加上我可能会忘记部署，所以可以在&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="OCs" scheme="https://rinmonwolf.github.io/categories/OCs/"/>
+    
+    
+    <category term="轻小说" scheme="https://rinmonwolf.github.io/tags/%E8%BD%BB%E5%B0%8F%E8%AF%B4/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo + Github = 年轻人的第一个博客</title>
