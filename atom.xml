@@ -6,11 +6,11 @@
   <link href="https://rinmonwolf.github.io/atom.xml" rel="self"/>
   
   <link href="https://rinmonwolf.github.io/"/>
-  <updated>2022-04-03T13:17:39.569Z</updated>
+  <updated>2022-04-04T01:24:26.396Z</updated>
   <id>https://rinmonwolf.github.io/</id>
   
   <author>
-    <name>Rinmon Wolf</name>
+    <name>袁湘浩</name>
     
   </author>
   
@@ -21,7 +21,7 @@
     <link href="https://rinmonwolf.github.io/2022/04/03/ysdaily-03-rain/"/>
     <id>https://rinmonwolf.github.io/2022/04/03/ysdaily-03-rain/</id>
     <published>2022-04-03T12:08:25.000Z</published>
-    <updated>2022-04-03T13:17:39.569Z</updated>
+    <updated>2022-04-04T01:24:26.396Z</updated>
     
     
       
@@ -31,9 +31,10 @@
     <summary type="html">&lt;p&gt;一场大雨。&lt;/p&gt;
 &lt;p&gt;淅淅沥沥的，打着树叶、打着地面的雨，同样打着朦胧的路灯下那把蓝色的伞。&lt;/p&gt;
 &lt;p&gt;他渡步在雨中，听着伞上的雨的歌声，漫无目的的前进着。&lt;/p&gt;
+&lt;br&gt;
+
 &lt;p&gt;风肆虐着。&lt;/p&gt;
-&lt;p&gt;狂风怒号，与降落的雨滴合唱，编织着激烈的暴风雨。&lt;/p&gt;
-&lt;p&gt;路灯</summary>
+&lt;p&gt;狂风怒号，与降落的雨滴合唱，编织着激烈的暴风雨。&lt;/p&gt;</summary>
         
       
     
@@ -129,9 +130,9 @@
     <category term="Started" scheme="https://rinmonwolf.github.io/categories/Started/"/>
     
     
-    <category term="博客" scheme="https://rinmonwolf.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
-    
     <category term="初次见面" scheme="https://rinmonwolf.github.io/tags/%E5%88%9D%E6%AC%A1%E8%A7%81%E9%9D%A2/"/>
+    
+    <category term="博客" scheme="https://rinmonwolf.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
