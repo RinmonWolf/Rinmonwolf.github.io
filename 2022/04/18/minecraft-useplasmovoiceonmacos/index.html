@@ -4,8 +4,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="YSDAILY-03-Rain, 湘浩的小阁楼">
-    <meta name="description" content="随笔，随笔。">
+    <meta name="keywords" content="关于PlasmoVoice 1.2.11模组在macOS不能使用麦克风的解决方法, 湘浩的小阁楼">
+    <meta name="description" content="破macOS.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -17,7 +17,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>YSDAILY-03-Rain | 湘浩的小阁楼</title>
+    <title>关于PlasmoVoice 1.2.11模组在macOS不能使用麦克风的解决方法 | 湘浩的小阁楼</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -232,7 +232,7 @@
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">YSDAILY-03-Rain</h1>
+                    <h1 class="description center-align post-title">关于PlasmoVoice 1.2.11模组在macOS不能使用麦克风的解决方法</h1>
                 </div>
             </div>
         </div>
@@ -348,8 +348,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/YSDAILY/">
-                                <span class="chip bg-color">YSDAILY</span>
+                            <a href="/tags/Minecraft/">
+                                <span class="chip bg-color">Minecraft</span>
                             </a>
                         
                     </div>
@@ -360,8 +360,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/YSDALIY/" class="post-category">
-                                YSDALIY
+                            <a href="/categories/Minecraft/" class="post-category">
+                                Minecraft
                             </a>
                         
                     </div>
@@ -373,21 +373,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2022-04-03
+                    2022-04-18
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2022-04-04
+                    2022-04-18
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    524
+                    1.1k
                 </div>
                 
 
@@ -412,73 +412,60 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>一场大雨。</p>
-<p>淅淅沥沥的，打着树叶、打着地面的雨，同样打着朦胧的路灯下那把蓝色的伞。</p>
-<p>他渡步在雨中，听着伞上的雨的歌声，漫无目的的前进着。</p>
+                <h2 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h2><p>近日因为我的游戏台式电脑坏了显卡，游戏主力就转移到了我的MacBook上。然后在游玩Minecraft的时候，我发现了很多问题：</p>
+<ul>
+<li>整合包如果想直接玩会因为HMCL性能不足而五国（用官启暂时解决）</li>
+<li>游戏音量过小（那你调大全局音量啊.png）</li>
+<li>因为macOS默认自然滚动（因为我用触控板我也没啥需要改回来）导致Minecraft滚轮逆向自然了</li>
+<li>输入法似乎有兼容问题导致输入文字比较困难</li>
+<li>PlasmoVoice无法获取输入音频</li>
+</ul>
+<p>然后针对最后一个问题（好解决一点）我去找了一下模组的Github的issue，发现果然<a target="_blank" rel="noopener" href="https://github.com/plasmoapp/plasmo-voice/issues/151">有人提出了这个问题</a>并且有人回复了。实测这个方法有效。可以阅读英文原文的可以点下上面的超链接看，我这边写一个简单的解决过程。</p>
+<h2 id="声明"><a href="#声明" class="headerlink" title="声明"></a>声明</h2><p>此处解决过程方法来自<a target="_blank" rel="noopener" href="https://github.com/henkelmax/simple-voice-chat/tree/1.18.1/macos">MacOS Microphone Permission Hack - SimpleVoiceChat（GitHub）</a>，建议有条件者阅读原文，<strong>下文几乎是上面这个超链接的不正规翻译</strong>，此处非常感谢SimpleVoiceChat的开发者（们）以及此篇解决方法的作者。如果作者有任何疑问或需要我删除，可联系我。</p>
+<h2 id="我的配置情况"><a href="#我的配置情况" class="headerlink" title="我的配置情况"></a>我的配置情况</h2><p>电脑：MacBook Air 13inch Mid 2013</p>
+<p>系统：macOS Big Sur 11.6.4</p>
+<p>Java：Java 8 Update 301</p>
+<p>Minecraft启动器：官启，应用程序版本1.0.1222</p>
+<p>Minecraft游戏版本：1.17.1 （with Fabric 0.11.7）</p>
+<p>模组版本：PlasmoVoice 1.2.11 </p>
+<h2 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h2><h3 id="首先"><a href="#首先" class="headerlink" title="首先"></a>首先</h3><p>首先，使用模组打开自由发言会发现始终没有输入音量，麦克风图标也不会出现。初步考虑有可能是macOS权限限制导致没有声音输入。</p>
+<p>SimpleVoiceChat这个模组提供了另外申请macOS麦克风权限的操作，并会在启动器没有提供申请麦克风权限的时候弹出一个GUI让用户自行拖入启动器签名麦克风申请权限。<em>（说实话这一句话不一定正确，就大概的意思是这样，请大家谅解我的初三没读完的英文水平）</em></p>
+<p>那么我们就可以试试用这个模组为启动器和游戏本体申请麦克风权限，这样也容易排除如果存在的其他因素。</p>
+<h3 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h3><ol>
+<li><p>下载对应版本的SimpleVoiceChat并拖入游戏目录下的mods文件夹中，并将PlasmoVoice模组拖出避免冲突。</p>
+</li>
+<li><p>通过启动器启动一次游戏，此时应当因为没有成功申请权限而有一个GUI弹出：</p>
+<p><img src="/media/images/Minecraft-VoiceMod/1.png" alt="SimpleVoiceChat的权限申请失败GUI"></p>
+</li>
+<li><p>打开访达，在应用程序中拖入你的Minecraft启动器（官启是这样的，如果你不是官启建议参考上文超链接或此时GUI中的Guide进行操作）。</p>
+</li>
+<li><p>操作完成后应该会有一个提示提示成功，关掉后会继续启动游戏，此时正常退出即可。</p>
+<p>此时如果启动器自动启动，关掉。</p>
+</li>
+<li><p>再次启动启动器，此时可能有很多很多次的钥匙串申请，输入你的登录密码即可。</p>
+<p><img src="/media/images/Minecraft-VoiceMod/2.png" alt="输入钥匙串密码"></p>
+<p>此处说明：此mod的操作是有开源的但是我没有去看。如果你担心的话可以根据上面的GUI找到一个开源链接查看，或者选择不用此方法。上文超链接提供了一个比较麻烦但不用这种方式的另外一种方法。</p>
+</li>
+<li><p>启动游戏。</p>
+</li>
+<li><p>此时应该会提示申请麦克风权限了，同意即可。</p>
+</li>
+<li><p>正常启动游戏。</p>
+</li>
+<li><p>退出游戏，并将SimpleVoiceChat移出mods文件夹，然后将PlasmoVoice移入。</p>
+</li>
+<li><p>正常启动游戏，并测试。</p>
+<p><img src="/media/images/Minecraft-VoiceMod/3.png" alt="成功！（看到自由发言下面的小绿条了吗)"></p>
+</li>
+</ol>
+<h3 id="后面的事情"><a href="#后面的事情" class="headerlink" title="后面的事情"></a>后面的事情</h3><p>如果已经拖进GUI处理过了，而游戏还是没有申请麦克风权限，请在终端输入</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">codesign --force --deep --sign - （你的启动器位置）<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>上文中的“（你的启动器位置）”请全部删除并在后面输入启动器位置，最方便的方法是直接拖住*.app进终端窗口。</p>
+<p>请注意“–sign”后面是空格、横杠、空格。</p>
 <br>
 
-<p>风肆虐着。</p>
-<p>狂风怒号，与降落的雨滴合唱，编织着激烈的暴风雨。</p>
-<p>路灯下的伞有些歪了，似乎撑着它的人已抓不住随风飘荡的伞。</p>
-<p>飘荡着的还有他的意志。</p>
-<br>
-
-<p>他不断想起身为人类时的他的片片过往，飘散不去。</p>
-<p>他自己也不敢相信自己会选择走投无路的路。</p>
-<p>那也是一个雨天。</p>
-<p>他走上了最高的那栋楼。</p>
-<br>
-
-<p>他的脑中似乎听到了有人喊着加油，他看着天。</p>
-<p>他的左脚已经迈出去了一半，他看着地。</p>
-<p>他的眼泪成线滴落水泥地板，他看着天。</p>
-<p>他的身体自由下落着。</p>
-<br>
-
-<p>于是他在梦里醒来了，一切都没发生。</p>
-<p>看着惨白的天花板，他无声地抽泣着。</p>
-<p>手上还攥着的吊坠让他意识到，</p>
-<p>他还活着。</p>
-<br>
-
-<p>他不知道他为什么会变成这样，不断崩溃。</p>
-<p>饭不食、寝不眠，应答声逐渐朦胧。</p>
-<p>跳下去时的风怒号着，和现在一样。</p>
-<p>飘荡的身子坠落了。</p>
-<br>
-
-<p>还活着，但也死去了。</p>
-<p>攥着吊坠的他成了另一个人。</p>
-<p>他迷糊的生活在这个陌生熟悉的世界，</p>
-<p>宛如新生。</p>
-<br>
-
-<p>没有目的的他走到了便利店门口。</p>
-<p>屋里的关东煮看起来如此的诱人。</p>
-<p>吃一口吧，他想着，</p>
-<p>把蓝色的伞折了起来。</p>
-<br>
-
-<p>“欢迎～想要吃些什么呢？”</p>
-<p>“这个套餐吧。”</p>
-<p>“好的，这边收您30。那边有座位～”</p>
-<p>“这里30。”</p>
-<br>
-
-<p>似乎一切都是一场梦。</p>
-<p>他再没感到更多的抑郁。</p>
-<p>活着吧，不要探究了。</p>
-<p>他如此念着吃下了安慰。</p>
-<br>
-
-<p>“诶先生！你掉了个吊坠！”</p>
-<p>“谢谢。”</p>
-<p>他再次攥在手上，往前走去。</p>
-<br>
-
-<hr>
-<p>更新记录：</p>
-<p>2022/04/04：更新排版，感谢 @kineks 的帮助。</p>
+<p>如果一直弹出提供钥匙串密码的窗口，请输入密码后选择始终允许。如果还是这样，重启试试看？</p>
 
                 
             </div>
@@ -505,7 +492,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://rinmonwolf.github.io/2022/04/03/ysdaily-03-rain/">https://rinmonwolf.github.io/2022/04/03/ysdaily-03-rain/</a>
+                    <a href="https://rinmonwolf.github.io/2022/04/18/minecraft-useplasmovoiceonmacos/">https://rinmonwolf.github.io/2022/04/18/minecraft-useplasmovoiceonmacos/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -543,8 +530,8 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/YSDAILY/">
-                                    <span class="chip bg-color">YSDAILY</span>
+                                <a href="/tags/Minecraft/">
+                                    <span class="chip bg-color">Minecraft</span>
                                 </a>
                             
                         </div>
@@ -716,9 +703,10 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
                 <a href="/2022/04/18/minecraft-useplasmovoiceonmacos/">
                     <div class="card-image">
@@ -736,9 +724,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2022-04-18
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-04-18
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -751,6 +739,7 @@
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -769,31 +758,31 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2022/03/28/minecraft-dc-storesfirstsalepromotion/">
+                <a href="/2022/04/03/ysdaily-03-rain/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="湘浩杂货铺开业活动开始啦！">
+                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="YSDAILY-03-Rain">
                         
-                        <span class="card-title">湘浩杂货铺开业活动开始啦！</span>
+                        <span class="card-title">YSDAILY-03-Rain</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            活动时间：3.27～4.9
+                            随笔，随笔。
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-03-28
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-04-03
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Minecraft/" class="post-category">
-                                    Minecraft
+                            <a href="/categories/YSDALIY/" class="post-category">
+                                    YSDALIY
                                 </a>
                             
                             
@@ -803,12 +792,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Minecraft/">
-                        <span class="chip bg-color">Minecraft</span>
-                    </a>
-                    
-                    <a href="/tags/DC%E5%95%86%E4%B8%9A%E6%A2%A6%E6%83%B3%E5%9F%8E/">
-                        <span class="chip bg-color">DC商业梦想城</span>
+                    <a href="/tags/YSDAILY/">
+                        <span class="chip bg-color">YSDAILY</span>
                     </a>
                     
                 </div>
